@@ -1,0 +1,117 @@
+.header{
+    font-size: 70px;
+    margin-top: 100px;
+}
+.match{
+    background-color: black;
+    margin: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    width: 75%; 
+    height: 600px;
+    margin-left: 320px;
+}
+.first{
+    color: white;
+    margin-left: 100px;
+    }
+    .paragraph{
+        width: 50%;
+        font-size: 28px;
+    }
+    .image{
+        padding-top: 10px;
+    }
+.live{
+    text-decoration: none;
+    background: linear-gradient( 45deg, red, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    
+}  
+.blog{
+    border: 1px solid black;
+    width: 250px;
+    /* margin-left: 50px; */
+    border-radius: 10px;
+    background-color: black;
+    height: 250px;
+}
+.blog-con{
+    background: linear-gradient( 45deg, red, red);
+}
+
+.blog a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 26px;
+    border: 1px solid black;
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.match2:hover{
+    background-color: red;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   margin-left: 1rem;
+   gap: 1rem;
+}
+.box{
+    box-shadow: 0px 0px 1.2px 0px ;
+    border-radius: 10px;
+}
+.box-element{
+    margin-left: 15px;
+}
+.blog-container{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem; 
+    justify-content: center;  
+}
+.last-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.last a{
+    text-decoration: none;
+    color: rgb(197, 181, 181);
+    margin: 70px;
+    padding-top: 100px;    
+}
+.nayan{
+   font-size: 50px;
+}
+hr{
+    border: 1px solid rgb(56, 53, 53);
+    margin-bottom: 35px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.icon{
+    padding-top: 100px;
+    font-size: 40px;
+    color: black;
+    
+}
+
+.game2{
+    display: flex;
+}
+.game1{
+    padding: 30px;
+    box-shadow: 0px 0px 1.2px 0px ;
+}
