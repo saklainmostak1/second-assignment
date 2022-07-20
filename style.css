@@ -4,13 +4,13 @@
 }
 .match{
     background-color: black;
-    margin: 50px;
+    margin: 40px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     width: 75%; 
     height: 600px;
-    margin-left: 320px;
+    margin-left: 250px;
 }
 .first{
     color: white;
@@ -18,10 +18,11 @@
     }
     .paragraph{
         width: 50%;
-        font-size: 28px;
+        font-size: 25px;
     }
     .image{
         padding-top: 10px;
+        padding-right: 100px;
     }
 .live{
     text-decoration: none;
