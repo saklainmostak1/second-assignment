@@ -10,7 +10,7 @@
     justify-content: center;
     width: 75%; 
     height: 600px;
-    /* margin-left: 320px; */
+    margin-left: 320px;
 }
 .first{
     color: white;
@@ -69,6 +69,10 @@
     box-shadow: 0px 0px 1.2px 0px ;
     border-radius: 10px;
 }
+.box img{
+    height: 250px;
+
+}
 .box-element{
     margin-left: 15px;
 }
@@ -107,7 +111,10 @@ hr{
     color: black;
     
 }
-
+.game{
+    height: 80px;
+    width: 150px;
+}
 .game2{
     display: flex;
 }
