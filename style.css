@@ -126,5 +126,6 @@ height: 60px;
 }
 .icon-blog{
     display: flex;
+    margin-right: 150px;
     justify-content: space-between;
 }
