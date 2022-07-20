@@ -1,3 +1,6 @@
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
 .header{
     font-size: 70px;
     margin-top: 100px;
@@ -8,16 +11,16 @@
     border-radius: 50px;
     display: flex;
     justify-content: center;
-    width: 75%; 
+    width: 70%; 
     height: 600px;
-    margin-left: 250px;
+    margin-left: 280px;
 }
 .first{
     color: white;
     margin-left: 100px;
     }
     .paragraph{
-        width: 50%;
+        width: 80%;
         font-size: 25px;
     }
     .image{
@@ -89,7 +92,7 @@
     background-color: black;
     color: white;
     text-align: center;
-    height: 300px;
+    /* height: 300px; */
     margin-top: 100px;
     padding-top: 50px;
 }
@@ -109,9 +112,9 @@ hr{
     margin-right: 200px;
 }
 .icon{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     font-size: 40px;
-    color: black;
+    color: white;
     
 }
 .game{
@@ -131,6 +134,18 @@ height: 60px;
 }
 .icon-blog{
     display: flex;
-    margin-right: 150px;
+    margin-right: 180px;
     justify-content: space-between;
+}
+span{
+    margin-left: 10px;
+}
+.icon a{
+    color: white;
+}
+/* Media Queries */
+/* Mocile Devices */
+@media only screen and (min-width: 688px) 
+{
+    
 }
