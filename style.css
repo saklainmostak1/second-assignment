@@ -34,10 +34,10 @@
 .blog{
     border: 1px solid black;
     width: 250px;
-    /* margin-left: 50px; */
     border-radius: 10px;
     background-color: black;
     height: 250px;
+    /* margin-top: 15px; */
 }
 .blog-con{
     background: linear-gradient( 45deg, red, red);
@@ -66,15 +66,14 @@
    gap: 1rem;
 }
 .box{
-    box-shadow: 0px 0px 1.2px 0px ;
-    border-radius: 10px;
+     box-shadow: 0px 0px 1.2px 0px ;
+    border-radius: 15px;
+    padding-bottom: 20px;
 }
-.box img{
-    height: 250px;
 
-}
 .box-element{
     margin-left: 15px;
+    
 }
 .blog-container{
     display: flex;
@@ -101,7 +100,7 @@
 }
 hr{
     border: 1px solid rgb(56, 53, 53);
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -112,13 +111,20 @@ hr{
     
 }
 .game{
-    height: 80px;
-    width: 150px;
+height: 60px;
+
+
 }
 .game2{
     display: flex;
 }
 .game1{
-    padding: 30px;
+     justify-content: center;
+     padding: 30px;
+    margin: 10px; 
     box-shadow: 0px 0px 1.2px 0px ;
+}
+.icon-blog{
+    display: flex;
+    justify-content: space-between;
 }
